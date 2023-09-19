@@ -1,0 +1,11 @@
+.main{
+    color: rgb(147,149,154);
+    margin-bottom: 5%;
+    width: 50%;
+    background-color: rgb(246, 238, 240);
+}
+@media(max-width:800px){
+    .main{
+        width: 100%;
+    }
+}

@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.larg{
+    color: black;
+    
+}
+@media(max-width:991px){
+    .larg{
+        display: none;
+    }
+}
+.smal{
+    color: black;
+}
+@media(min-width:991px){
+    .smal{
+        display: none;
+    }
+}

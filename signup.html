@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup page</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css">
+</head>
+<body>
+    <div class="larg" style="background-color: rgb(247,247,249);">
+        <div style="display: flex;justify-content:space-between;padding:2% 2% 1% 2%;width-100%;font-size: 150%;">
+            <h3>hulu</h3>
+            <h5><a href="login.html" style="text-decoration: none;color:black;">LOG IN</a></h5>
+        </div>
+        <div style="">
+            <h1 style="text-align: center;font-size: 300%;font-weight: 1000;">Choose Your Plan</h1>
+            <p style="display:flex;justify-content:center;margin-top: 2%;margin-bottom: 2%;"><a href="" style="text-decoration: none;color:black;">Switch plans or cancel anytime.</a></p>
+        </div>
+        <div>
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist" style="display: flex;justify-content:center;">
+                  <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">BASE PLANS</button>
+                  <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">BUNDLE / SAVE</button>
+                  
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                    <div>
+                        <div style="display: flex;justify-content:center;flex-direction: column;">
+                        
+                        <div style="display: flex;justify-content:center;">
+                            <div class="row" style="width: 80%;">
+                                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                                    <div style="border:1px solid blac ;padding:15% 2% 2% 5%;display:grid;grid-template-columns:100%;gap:5%;height: 130%;background-color: white;">
+                                        <h3 style="text-align: center;padding: 0%;margin: 0%;">Hulu (No Ads)</h3>
+                                        <p style="text-align: center;">Get First Month Free, Then</p>
+                                        <h3 style="text-align: center;">$14.99
+                                            / month*</h3>
+                                            <p style="text-align: center;font-size: 90%;">Our Hulu (No Ads) plan lets you watch exclusive series, hit movies, Originals, kids shows, and tons more with no ad interruptions.</p>
+                                            <button style="width: 100%;border:none;" onclick="one()"><a href="" style="text-decoration: none;color: black;" id="go">SELECT</a></button>
+                                            <P style="text-align: center;font-size: 70%;">*Price will increase to $17.99/month on 10/12/2023.</P>
+                                    </div>
+                                    <p style="font-size: 80%;">A few excluded shows play with ads. Learn More</p>
+                                </div>
+                                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                                    <div style="border:1px solid blac ;padding:15% 2% 2% 5%;display:grid;grid-template-columns:100%;gap:5%;height: 130%;background-color: white;">
+                                        <!-- <div style="display: flex;justify-content:center;"><h6 style="margin-top:-10%;border: 1px solid black;margin-bottom: ;border-radius: 20px;padding: 2% 2% 2% 2%;">MOST POPULAR</h6></div> -->
+                                        <h3 style="text-align: center;">Hulu</h3>
+                                        
+                                        
+                                        <p style="text-align: center;margin-top: -20%;">Get First Month Free, Then</p>
+                                        <h3 style="text-align: center;margin-top:-30%;">$7.99
+                                            / month</h3>
+                                            <p style="text-align: center;font-size: 90%;margin-top:-30%;">Our Hulu (With Ads) plan lets you watch exclusive series, hit movies, Originals, kids shows, and tons more.</p>
+                                            <button style="width: 100%;height: 7vh;border: none;" onclick="two()"><a href="" style="text-decoration: none;color: black;" id="come">SELECT</a></button>
+                                            
+                                    </div>
+        
+                                </div>
+                                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                                    <div style="border:1px solid blac ;padding:15% 2% 2% 5%;display:grid;grid-template-columns:100%;gap:5%;height: 130%;background-color: white;">
+                                        <h3 style="text-align: center;">Hulu + Live TV</h3>
+                                        <p style="text-align: center;">Includes Disney+ and ESPN+</p>
+                                        <h3 style="text-align: center;">$49.99
+                                            / month</h3>
+                                            <p style="text-align: center;font-size: 90%;margin-top: -10%;">for 3 mos., then regular monthly price*</p>
+                                            <p style="text-align: center;font-size: 90%;margin-top: -10%;">Access 90+ channels with Live TV, Unlimited DVR, endless entertainment with Disney+ (With Ads), live sports with ESPN+ (With Ads), and award-winning Hulu originals with Hulu (With Ads).</p>
+                                            <button style="width: 100%;border: none;" onclick="three()"><a href="" style="text-decoration: none;color: black;" id="lin">SELECT</a></button>
+                                            <P style="text-align: center;font-size: 70%;"><a href="" style="text-decoration: none;">Learn more</a><br>*Price will increase to $76.99/month on 10/12/2023</P>
+                                    </div>
+                                    <p style="font-size: 80%;">*Auto-renews at $76.99/month at the expiration of 3-month promotional period (if applicable). <br>
+                                        <div style="display: flex;justify-content:center;font-size:80%;"><a href="" style="text-decoration: none;">Terms Apply</a></div></p>
+        
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div style="display: flex;justify-content:center;margin-top: 300px;text-decoration: none;"><a href="" style="text-decoration: none;">Looking for our student discount?</a></div>>
+                        <div style="display: flex;justify-content:space-between;width: 80%;align-self: center;margin-bottom: 20px;font-size: 80%;">
+                            <p> <a href="" style="text-decoration: none;color:black;">About Ads</a></p>
+                            <p> <a href="" style="text-decoration: none;color:black;">Subscriber Agreement</a> </p>
+                            <p> <a href="" style="text-decoration: none;color:black;">Privacy Policy</a></p>
+                            <p> <a href="" style="text-decoration: none;color:black;"> Do Not Sell My Personal Information</a></p>
+                            <p> <a href="" style="text-decoration: none;color:black;">Your California Privacy Rights</a></p>
+                            <p>© 2023 Hulu, LLC</p>
+                        </div>
+                        </div>
+                        
+                    </div>
+                    
+                    
+                </div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                    <div style="display: flex;justify-content:center;flex-direction: column;">
+                        <div style="display: flex;justify-content:center;">
+                            <div class="row" style="width: 80%;">
+                                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                                    <div style="padding:15% 2% 2% 5%;display:grid;grid-template-columns:100%;gap:5%;height: 130%;background-color: white;padding:15% 2% 2% 5%;">
+                                        <h4 style="text-align: center;">Disney Bundle Duo Basic</h4>
+                                        <div style="display: flex;justify-content:center;"><img src="./signup.img/one.svg" alt=""></div>
+                                        <h3 style="text-align: center;">$9.99
+                                            / month</h3>
+                                            <p style="text-align: center;font-size: 90%;">Access endless entertainment with Disney+ (With Ads), and award-winning Hulu Originals with Hulu (With Ads).</p>
+                                            <button style="width: 100%;height: 5vh;border: none;" onclick="four()"><a href="" style="text-decoration: none;color: black;" id="lip">SELECT</a></button>
+                                            <P style="text-align: center;font-size: 70%;"><a href="" style="text-decoration: none;">Learn more</a></P>
+                                    </div>
+                                    <div style="display:flex;justify-content:center;font-size:80%;"><a href="" style="text-decoration: none;">Terms Apply</a></div>
+                                </div>
+                                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                                    <div style="border:padding:15% 2% 2% 5%;display:grid;grid-template-columns:100%;gap:5%;height: 130%;background-color: white;padding:15% 2% 2% 5%;">
+                                        <!-- <div style="display: flex;justify-content:center;"><h6 style="margin-top:-10%;border: 1px solid black;margin-bottom: ;border-radius: 20px;padding: 2% 2% 2% 2%;">MOST POPULAR</h6></div> -->
+                                        <h4 style="text-align: center;">Disney Bundle Trio Basic</h4>
+                                        
+                                        
+                                        <div style="display: flex;justify-content:center;"><img src="./signup.img/two.svg" alt=""></div>
+                                        <h3 style="text-align: center;">$12.99
+                                            / month*</h3>
+                                            <p style="text-align: center;font-size: 90%;">Access live sports with ESPN+ (With Ads), endless entertainment with Disney+ (With Ads), and award-winning Hulu Originals with Hulu (With Ads). *Savings compared to regular monthly price of each service.</p>
+                                            <button style="width: 100%;border:none ;height: 5vh;" onclick="five()"><a href="" style="text-decoration: none;color: black;" id="lid">SELECT</a></button>
+                                            <P style="text-align: center;font-size: 70%;"><a href="" style="text-decoration: none;">Learn more</a><br>*Price will increase to $14.99/month on 10/12/2023</P>
+                                            
+                                    </div>
+                                    <div style="display:flex;justify-content:center;font-size:80%;"><a href="" style="text-decoration: none;">Terms Apply</a></div>
+        
+                                </div>
+                                <div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                                    <div style="border:padding:15% 2% 2% 5%;display:grid;grid-template-columns:100%;gap:5%;height: 130%;background-color: white;padding:15% 2% 2% 5%; ">
+                                        <h4 style="text-align: center;">Disney Bundle Trio Premium</h4>
+                                        <div style="display: flex;justify-content:center;"><img src="./signup.img/two.svg" alt=""></div>
+                                        <h3 style="text-align: center;">$19.99
+                                            / month*</h3>
+                                            <p style="text-align: center;font-size: 90%;margin-top: -10%;">for 3 mos., then regular monthly price*</p>
+                                            <p style="text-align: center;font-size: 90%;margin-top: -10%;">Access live sports with ESPN+ (With Ads), endless entertainment with Disney+ (No Ads), and award-winning Hulu Originals with Hulu (No Ads).</p>
+                                            <button style="width: 100%;height: 5vh;border: none;" onclick="six()"><a href="" style="text-decoration: none;color: black;" id="lit">SELECT</a></button>
+                                            <P style="text-align: center;font-size: 70%;"><a href="" style="text-decoration: none;">Learn more</a><br>*Price will increase to $24.99/month on 10/12/2023.</P>
+                                    </div>
+                                    <div style="display:flex;flex-direction: column;justify-content:center;font-size:80%;"><p>A few excluded shows play with ads. Learn Mzore</p>
+                                        <div style="display: flex;justify-content:center;"><a href="" style="text-decoration: none;">Terms Apply</a></div></div>
+                                    
+        
+        
+                                </div>
+                            </div>
+                        </div>
+                        <div style="margin-top: 300px;display: flex;justify-content: center;align-self: center;">
+                            <div style="display: grid;grid-template-columns:30% 30% 30%;width: 60%;align-items: center;border: 2px solid black; justify-content: space-around;border-radius: 10px;">
+                                <div ><img src="./signup.img/two.svg" alt="" style="width: 100%;"></div>
+                                <div>
+                                    <h5>Hulu (No Ads) + Live TV</h5>
+                                   <p style="font-size: 80%;"> Get Hulu (No Ads) + Live TV for $82.99/month*
+    
+                                    More Details
+                                    *Price will increase to $89.99/month on 10/12/2023</p>
+                                </div>
+                                <div><button style="width: 80%;padding: 5px 5px 5px 5px;border-radius: 5px;">SELECT</button><br>
+                                <a href="" style="text-decoration: none;display: flex;align-self: center;">Terms Apply</a>
+                            </div>
+                            </div>
+                        </div>
+                        <div style="display: flex;justify-content:space-between;width: 80%;align-self: center;margin-bottom: 20px;font-size: 80%;margin-top: 100px;">
+                            <p> <a href="" style="text-decoration: none;color:black;">About Ads</a></p>
+                            <p> <a href="" style="text-decoration: none;color:black;">Subscriber Agreement</a> </p>
+                            <p> <a href="" style="text-decoration: none;color:black;">Privacy Policy</a></p>
+                            <p> <a href="" style="text-decoration: none;color:black;"> Do Not Sell My Personal Information</a></p>
+                            <p> <a href="" style="text-decoration: none;color:black;">Your California Privacy Rights</a></p>
+                            <p>© 2023 Hulu, LLC</p>
+                        </div>
+                    </div>
+    
+                </div>
+                
+              </div>
+        </div>
+    </div>
+    <div class="smal" style="background-color: rgb(247,247,249);">
+        <div>
+            <div style="display: flex;justify-content:space-between;padding:2% 2% 1% 2%;width-100%;font-size: 150%;">
+                <h3>hulu</h3>
+                <h5>LOG IN</h5>
+            </div>
+            <div style="">
+                <h1 style="text-align: center;font-size: 200%;font-weight: 1000;">Choose Your Plan</h1>
+                <p style="display:flex;justify-content:center;margin-top: 2%;margin-bottom: 2%;"><a href="" style="text-decoration: none;color:black;">Switch plans or cancel anytime.</a></p>
+            </div>
+        </div>
+        <div>
+            <div style="display: flex;justify-content:center;margin-top: 50px;">
+                <div style="display: flex;overflow-x: auto;gap:20px;width:80%;">
+                    <div id="jan" style="background-color: white;">
+                        <div style="border:1px solid blac;width:200px;height: 250px;">
+                            <div style="border: 1px solid blac;"><h6  style="text-align: center;"><a href="" style="text-decoration: none;color: black;">MOST POPULAR</a></h6></div>
+                            <div style="display: flex;justify-content:center;align-items:center;height: 70%;border: 1px solid blac;">
+                                <h5 style="font-size: 90%;">Hulu</h5>
+                            </div>
+                            <div style="display: flex;justify-content:center ;align-items:center;">
+                                <button onclick="line()" style="width: 30%;border-radius:100%;"><img src="" alt="" style="width: 40%;" id="a"></button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div id="feb" style="background-color: white;">
+                        <div style="border:1px solid blac;width:200px;height: 250px;">
+                            <div style="border: 1px solid blac;"><h6  style="text-align: center;"><a href="" style="text-decoration: none;color: black;">BUNDLE & SAVE</a></h6></div>
+                            <div style="display: flex;justify-content:center;align-items:center;height: 70%;border: 1px solid blac;">
+                                <h5 style="font-size: 90%;">Disney Bundle Duo Basic</h5>
+                            </div>
+                            <div style="display: flex;justify-content:center ;align-items:center;">
+                                <button onclick="love()" style="width: 30%;border-radius:100%;"><img src="" alt="" style="width: 40%;" id="b"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="mar" style="background-color: white;">
+                        <div style="border:1px solid blac;width:200px;height: 250px;">
+                            <div style="border: 1px solid blac;"><h6  style="text-align: center;"><a href="" style="text-decoration: none;color: black;">BUNDLE & SAVE</a></h6></div>
+                            <div style="display: flex;justify-content:center;align-items:center;height: 70%;border: 1px solid blac;">
+                                <h5 style="font-size: 90%;">Disney Bundle Trio Basic</h5>
+                            </div>
+                            <div style="display: flex;justify-content:center ;align-items:center;">
+                                <button onclick="live()" style="width: 30%;border-radius:100%;"><img src="" alt="" style="width: 40%;" id="c"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="apr" style="background-color: white;">
+                        <div style="border:1px solid blac;width:200px;height: 250px;">
+                            <div style="border: 1px solid blac;"><h6  style="text-align: center;"><a href="" style="text-decoration: none;color: black;">BUNDLE & SAVE</a></h6></div>
+                            <div style="display: flex;justify-content:center;align-items:center;height: 70%;border: 1px solid blac;">
+                                <h5 style="font-size: 90%;">Disney Bundle Trio Premium</h5>
+                            </div>
+                            <div style="display: flex;justify-content:center ;align-items:center;">
+                                <button onclick="life()" style="width: 30%;border-radius:100%;"><img src="" alt="" style="width: 40%;" id="d"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="may" style="background-color: white;">
+                        <div style="border:1px solid blac;width:200px;height: 250px;">
+                            
+                            <div style="display: flex;justify-content:center;align-items:center;height: 80%;border: 1px solid blac;">
+                                <h5 style="font-size: 90%;">Hulu + Live TV,Disney+, and ESPN+</h5>
+                            </div>
+                            <div style="display: flex;justify-content:center ;align-items:center;">
+                                <button onclick="leap()" style="width: 30%;border-radius:100%;"><img src="" alt="" style="width: 40%;" id="e"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="jun" style="background-color: white;">
+                        <div style="border:1px solid blac;width:200px;height: 250px;border-radius: 10px;">
+                            
+                            <div style="display: flex;justify-content:center;align-items:center;height: 80%;border: 1px solid blac;">
+                                <h5 style="font-size: 90%;">Hulu(No Adds)</h5>
+                            </div>
+                            <div style="display: flex;justify-content:center ;align-items:center;">
+                                <button onclick="leen()" style="width: 30%;border-radius:100%;"><img src="" alt="" style="width: 40%;" id="f"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: flex;justify-content: center;margin-top: 30px">
+            <div style="width: 60%;font-size: 80%;">
+                <div ><h6 id="one">Get Hulu 30 days free</h6></div>
+                <img src="" alt="" id="imgg">
+            <p id="two">then $7.99/month</p>
+            <p id="three">Our Hulu (With Ads) plan lets you watch exclusive series, hit movies, Originals, kids shows, and tons more.</p>
+            <p id="four"></p>
+            <p><a href="" id="five" style="text-decoration: none;">Looking for our student discount?</a></p>
+            <p id="six"></p>
+            </div>
+
+        </div>
+        <div style="display: flex;justify-content:center;">
+            <div style="display: flex;flex-wrap: wrap;width: 60%;align-items: center;border: 2px solid black; justify-content: space-around;border-radius: 10px;flex-direction: row;">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-4 mt-5">
+                        <img src="./signup.img/two.svg" alt="" style="width: 100%;">
+                    </div>
+                                <div class="col-12 col-sm-12 col-md-4 ">
+                                    <h5>Hulu (No Ads) + Live TV</h5>
+                                   <p style="font-size: 80%;"> Get Hulu (No Ads) + Live TV for $82.99/month*
+    
+                                    More Details
+                                    *Price will increase to $89.99/month on 10/12/2023</p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 mt-5" style="display: flex;justify-content:center;flex-direction:column;">
+                                    <button style="width: 80%;padding: 5px 5px 5px 5px;border-radius: 5px;margin-left: 10%;">SELECT</button><br>
+                                <a href="" style="text-decoration: none;display: flex;align-self: center;">Terms Apply</a>
+                            </div>
+                    
+            </div>
+            </div>
+                   
+        </div>
+        <div style="display: flex;justify-content:center;">
+            <div style="display: flex;justify-content:space-between;width: 80%;align-self: center;margin-bottom: 50px;font-size: 80%;margin-top: 100px;flex-wrap: wrap;">
+                <p> <a href="" style="text-decoration: none;color:black;">About Ads</a></p>
+                <p> <a href="" style="text-decoration: none;color:black;">Subscriber Agreement</a> </p>
+                <p> <a href="" style="text-decoration: none;color:black;">Privacy Policy</a></p>
+                <p> <a href="" style="text-decoration: none;color:black;"> Do Not Sell My Personal Information</a></p>
+                <p> <a href="" style="text-decoration: none;color:black;">Your California Privacy Rights</a></p>
+                <p>© 2023 Hulu, LLC</p>
+            </div>
+        </div>
+        <div style="position: fixed;bottom:2px;width:100%;margin:10px 15px 10px 15px;">
+            <button style="width: 100%;color: white;background-color: black;" onclick="smalbutton()"><a href="" style="text-decoration: none;color:white;" id="plus">SELECT</a></button>
+        </div>
+    </div>
+    
+
+    </div>
+    <script src="./signup.js"></script>
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+</body>
+</html>
