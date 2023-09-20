@@ -20,7 +20,7 @@ function lesspopular() {
     document.getElementById("fil").href = "login.html"
 }
 function gethulu() {
-    document.getElementById("get").href = "signup.html"
+    document.getElementById("get").href = "signin.html"
 }
 function duo() {
     document.getElementById("du").href = "signup.html"
